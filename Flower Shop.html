@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+<meta name="viewport" content="width=device-width, user-scalable=no">
+
+<link rel ="stylesheet" href = "Flower.css">
+
+<script src="Flower.js"></script>
+<title>FLOWER SHOP ONLINE</title>
+</head>
+<body>
+<h1>
+FLOWER SHOP ONLINE
+</h1>
+<hr>
+<h2 >Select Payment mode</h2>
+
+<img id = "Flower" src = "Flower.jpg" alt = "Flowers" >
+
+<table>
+<tr>
+<td><b>Select Language</b></td>
+<td>
+<select name = "Select language" style= "width:200px;border:3px solid lightblue;">
+<option value="English">English</option>
+  <option value="French">French</option>
+  <option value="Hindi">Hindi</option>
+  <option value="Tamil">Tamil</option>
+</select>
+</td>
+<tr>
+<td>Payment method</td> 
+<td><b>Visa</b></td>
+</tr>
+<tr>
+<td>Description</td> 
+<td><b>Item ordered</b></td>
+</tr>
+<tr>
+<td>Amount</td> 
+<td><b>£100.00</b></td>   
+</tr>
+</table>
+<img id = "visa" src ="visa.png" alt = "visa" >
+<img id = "queryCard" src ="Questionmark.png" alt = "info" >
+<img id = "queryAddress" src ="Questionmark.png" alt = "info" >
+
+<div id = "card">
+Card Details   
+</div>
+
+<div id = "card_details">
+ You must fill in fields marked with *
+<form> 
+* Card number <input type = "text" id = "cardNumber" name = "cardnumber" value="" title="Card Number required." required onchange="validateCardNumber()" size="50" style = "position:relative; margin-left:100px;border:3px solid lightblue;"><br><br>
+* <ins>Security code</ins>  <input type = "text" id = "securityCode" name = "security code" title="Security code required." onchange = "validateSecurityCode();" style = "position:relative; margin-left:97px;border:3px solid lightblue;"><br><br>
+* Expiry date 	<select name="Month" style = "position:relative; margin-left:110px; border:3px solid lightblue;">
+<option></option>
+<option>01</option>
+<option>02</option>
+<option>03</option>
+<option>04</option>
+<option>05</option>
+<option>06</option>
+<option>07</option>
+<option>08</option>
+<option>09</option>
+<option>10</option>
+<option>11</option>
+<option>12</option>
+</select>
+&nbsp
+<select name="Year" style = "position:relative; border:3px solid lightblue;">
+<option></option>
+<option>2020</option>
+<option>2021</option>
+<option>2022</option>
+<option>2023</option>
+<option>2024</option>
+<option>2025</option>
+</select><br><br>
+* CardHolder's name		 <input type = "text" id = "cardHolderName" name = "cardHolder's name" onchange = "validateCardHolderName()" size="50" style = "position:relative; margin-left:60px; border:3px solid lightblue;">
+
+</form>
+</div>
+
+<div id ="CardHolderDetails">
+CardHolder Details
+
+</div>
+
+<div id = "contactDetails">
+ <p>You must fill in fields marked with *</p> 
+<form> 
+* Address 1 <input type = "text"  name = "address 1"  size="50" style = "position:relative; margin-left:120px;border:3px solid lightblue;"><br></br>
+&nbsp  Address 2 <input type = "text"  name = "address 2"  size="50" style = "position:relative; margin-left:123px;border:3px solid lightblue;"><br></br>
+&nbsp  Address 3 <input type = "text" name = "address 3"  size="50" style = "position:relative; margin-left:123px;border:3px solid lightblue;"><br></br>
+* Town/City <input type = "text" id = "city" name = "Town/City" onchange =  "validateCity()" size="50" style = "position:relative; margin-left:115px;border:3px solid lightblue;"><br></br>
+ &nbsp Region <input type = "text" id = "region" name = "Region" onchange = "validateRegion()" size="50" style = "position:relative; margin-left:140px;border:3px solid lightblue;"><br></br>
+* Postcode/Zip code <input type = "text" id = "zipCode" name = " Postcode/Zip code" onchange = "validateZipCode()"style = "position:relative; margin-left:63px;border:3px solid lightblue;"><br></br>
+* Country <select name = "Select Country" style = "position:relative; margin-left:130px; width:200px;border:3px solid lightblue;">
+<option >England</option>
+  <option>France</option>
+  <option >India</option>
+  <option >Germany</option>
+</select>
+<br></br>
+ &nbsp Telephone <input type = "text" id = "telephone" name = "Telephone" onchange = "validateTelephone()"style = "position:relative; margin-left:120px;border:3px solid lightblue;"><br></br>
+  &nbsp Fax <input type = "text" id =  "faxNumber" name = "fax" onchange = "validateFaxNumber()" style = "position:relative; margin-left:160px;border:3px solid lightblue;"><br></br>
+* Email address <input type = "text" id = "email" name = "Email address" onchange = "validateEmail()" size="50" style = "position:relative; margin-left:90px;border:3px solid lightblue;">
+</form>
+</div>
+
+
+<div id = "payment">
+<a  href = "#">
+<img src = "Refresh.png" alt = "Refresh" style ="width:13px;height:13px;">START AGAIN
+<br>	
+<img src = "Closesymbol.png" alt = "Cancel" style ="width:13px;height:13px;">CANCEL
+</a>
+<a id = "Makepayment" href = "#">
+MAKE PAYMENT</a>
+<a id = "MakepaymentImage" href = "#">
+<img src = "Makepayment.png" alt = "Make Payment" style ="width:20px;height:20px">
+</a>
+<hr id = "suggestion">
+
+<p>Refunds and Returns</p>
+For more information visit the <a href = "#">Refunds and Returns Policy</a><br>
+
+<a id = "help"> For help with your payment visit the</a>  <a id = "worldPayHelp" href="#">WorldPay Help.</a>
+<img id = "worldPayImage" src = "world.png" alt = "World Pay" style ="width:100px;height:40px">	
+</div>
+
+<footer >
+<b>Thank you for shopping at Flowershop. Have a nice day.</b>
+</footer>
+
+</body>
+</html>

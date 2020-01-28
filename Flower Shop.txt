@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+<link rel ="stylesheet" href = "Flower.css">
+<title>FLOWER SHOP ONLINE</title>
+</head>
+<body>
+<h1>
+FLOWER SHOP ONLINE
+</h1>
+<hr>
+<h2>Select Payment mode</h2>
+
+<img id = "one" src = "Flower.jpg" alt = "Flowers" >
+
+<table>
+<tr>
+<td><b>Select Language</b></td>
+<td>
+<select name = "Select language">
+<option value="English">English</option>
+  <option value="French">French</option>
+  <option value="Hindi">Hindi</option>
+  <option value="Tamil">Tamil</option>
+</select>
+</td>
+<tr>
+<td>Payment method</td> 
+<td>Visa</td>
+</tr>
+<tr>
+<td>Description</td> 
+<td>Item ordered</td>
+</tr>
+<tr>
+<td>Amount</td> 
+<td>£100</td>   
+</tr>
+</table>
+<img id = "visa" src ="visa.png" alt = "visa" >
+<img id = "info" src ="Questionmark.png" alt = "info" >
+<img id = "infoAddress" src ="Questionmark.png" alt = "info" >
+
+<div id = "card_details">
+Card Details   
+</div>
+
+<div id = "card">
+ You must fill in fields marked with *
+<form> 
+* Card number <input type = "number" name = "cardnumber" style = "position:relative; margin-left:100px"><br></br>
+* <ins>Security code</ins>  <input type = "text" name = "security code" style = "position:relative; margin-left:97px"><br></br>
+* Expiry date 	<input type = "month" name = "expiry date" style = "position:relative; margin-left:110px"><br></br>
+* CardHolder's name		 <input type = "text" name = "cardHolder's name" style = "position:relative; margin-left:60px">
+
+</form>
+</div>
+
+<div id ="CardHolderDetails">
+CardHolder Details
+
+</div>
+
+<div id = "Address">
+ <p>You must fill in fields marked with *</p> 
+<form> 
+* Address 1 <input type = "text" name = "address 1" style = "position:relative; margin-left:120px"><br></br>
+&nbsp  Address 2 <input type = "text" name = "address 2" style = "position:relative; margin-left:123px"><br></br>
+&nbsp  Address 3 <input type = "text" name = "address 3" style = "position:relative; margin-left:123px"><br></br>
+* Town/City <input type = "text" name = "Town/City" style = "position:relative; margin-left:115px"><br></br>
+ &nbsp Region <input type = "text" name = "Region" style = "position:relative; margin-left:140px"><br></br>
+* Postcode/Zip code <input type = "number" name = " Postcode/Zip code" style = "position:relative; margin-left:63px"><br></br>
+* Country <select name = "Select Country" style = "position:relative; margin-left:130px; width:170px;">
+<option >England</option>
+  <option>France</option>
+  <option >India</option>
+  <option >Germany</option>
+</select>
+<br></br>
+ &nbsp Telephone <input type = "number" name = "Telephone" style = "position:relative; margin-left:120px"><br></br>
+  &nbsp Fax <input type = "number" name = "fax" style = "position:relative; margin-left:160px"><br></br>
+* Email address <input type = "email" name = "Email address" style = "position:relative; margin-left:90px">
+</form>
+</div>
+
+
+<div id = "last">
+<a  href = "#">
+<img src = "Refresh.png" alt = "Refresh" style ="width:13px;height:13px;">START AGAIN
+<br>	
+<img src = "Closesymbol.png" alt = "Cancel" style ="width:13px;height:13px;">CANCEL
+</a>
+<a id = "flower" href = "#">
+MAKE PAYMENT</a>
+<a id = "payment" href = "#">
+<img src = "Makepayment.png" alt = "Make Payment" style ="width:20px;height:20px">
+</a>
+<hr style = "width:71%; margin-right:500px;">
+
+<p>Refunds and Returns</p>
+For more information visit the <a href = "#">Refunds and Returns Policy</a><br>
+
+<a id = "right"> For help with your payment visit the</a>  <a id = "worldPay" href="#">WorldPay Help.</a>
+<img id = "world" src = "world.png" alt = "World Pay" style ="width:100px;height:40px">	
+</div>
+
+<footer >
+<b>Thank you for shopping at Flowershop. Have a nice day.</b>
+</footer>
+
+</body>
+</html>

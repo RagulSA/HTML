@@ -1,0 +1,156 @@
+h1
+{
+font:sans-serif;
+color:blue;
+}
+h2
+{
+font:sans-serif;
+color:blue;
+text-align:center;
+}
+hr
+{
+width:100%;
+height:5px;
+background-color:yellowgreen;
+}
+#one
+{
+	position: absolute;
+	top : 105px;
+	width : 150px;
+	height : 150px;
+}
+
+img:hover {
+  box-shadow: 0 0 2px 1px rgba(0, 140, 186, 0.5);
+}
+
+pre{
+	text-align:center;
+}
+
+#card_details
+{
+
+	position:absolute;
+    right:150px;
+	width:45%;
+	color:black;
+	background-color:yellowgreen;
+	border: 3px solid yellowgreen;
+	color:white;
+	
+}
+
+#card
+{
+margin-top:1.5em;	
+	right:150px;
+	width:45%;
+	color:black;
+	position: fixed;
+	background-color:orange;
+	border:3px solid orange;
+	position:absolute;
+}
+form
+{
+	margin-top:1.5em;
+	
+	margin-left:1em;
+	
+}
+
+table, th, td {
+	margin-left:30.5em;
+	 padding:3px 50px;
+ }
+
+
+#CardHolderDetails
+{
+margin-top:13.35em;
+position:absolute;
+    right:150px;
+	width:45%;
+	color:black;
+	background-color:yellowgreen;
+	border: 3px solid yellowgreen;
+	color:white;
+}
+
+
+
+#Address
+{
+	
+	margin-top:14.85em;
+right:150px;
+	width:45%;
+	color:black;
+	position: fixed;
+	background-color:orange;
+	border:3px solid orange;
+	position:absolute;
+padding-left:50px 10px;	
+}
+
+
+
+
+footer
+{
+	position:fixed;
+	bottom : 0px;
+	width:100%;
+	color:blue;
+	background-color:yellowgreen;
+	
+}
+
+#two
+{
+	height:10px;
+	background-color:red;
+	margin-top:34em;
+right:150px;
+	width:45%;
+	color:black;
+	position: fixed;
+	position:absolute;
+padding-left:50px 10px;	
+	
+}
+
+
+
+
+/*<nav class = "last">
+<a href = "#">
+<img class = "re" src = "Referesh.png" alt = "Referesh" style ="width:10px;height:10px;">Start Again</a>
+
+<a href = "#">
+Make Payment<img src = "Makepayment.png" alt = "Make Payment" style ="width:20px;height:20px">
+</a>
+<a href = "#">
+<img src = "Closesymbol.png" alt = "Cancel" style ="width:10px;height:10px;">Cancel
+</a>
+</nav>
+*/
+
+
+
+
+
+
+
+
+
+
+
+/*<img src =  "Referesh.png" alt = "Start again" align="right;">
+<img src =  "Questionmark.png" alt = "Start again" align="right;">
+<img src =  "Closesymbol.png" alt = "Start again" align="right;">
+*/

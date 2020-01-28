@@ -1,0 +1,161 @@
+h1
+{
+	font:sans-serif;
+	color:#004466;
+}
+h2
+{
+	font:sans-serif;
+	color:#004466;
+	
+}
+hr
+{
+	height:15px;
+	background-color:yellowgreen;
+}
+
+#suggestion
+{
+	height:1px;
+	background-color:white;
+	width:100%; 
+	margin-right:500px;
+}
+
+#card
+{
+	position:relative;
+	width:500px;	
+	background-color:yellowgreen;
+	border: 3px solid yellowgreen;
+	color:white;
+	
+}
+
+#card_details
+{
+	position:relative;
+	width:500px;
+	color:black;
+	background-color:#ffbf80;
+	border:3px solid #ffbf80;
+	height:190px;
+}
+
+#CardHolderDetails
+{
+	position:relative;
+	width:500px;
+	background-color:yellowgreen;
+	border: 3px solid yellowgreen;
+	color:black;
+}
+
+#contactDetails
+{
+	position:relative;
+	width:500px;
+	color:black;
+	background-color:#ffbf80;
+	border:3px solid #ffbf80;
+}
+
+#payment
+{
+	color:#004466;
+	position:relative;
+	margin-top:10px
+}
+
+
+
+#help
+{
+		position:relative;
+}
+
+#worldPayHelp
+{
+	position:relative;
+	}
+
+
+#MakepaymentImage
+{
+	position:absolute;
+	margin-left:70%;
+	
+}
+#content{
+	position:absolute;
+	margin:0px 600px;
+}
+#Makepayment
+{
+	position:relative;
+	
+}
+
+#worldPayImage
+{
+		position:relative;
+	margin-left:-350px;
+}
+
+#link
+{
+	position:relative;	
+
+}
+footer
+{
+	position:relative;
+	bottom : -1100px;
+	width:100%;
+	color:blue;
+	background-color:red;
+	font-size:25px;
+}
+
+
+#Flower
+{
+	position: absolute;
+	top : 105px;
+	left:30px;
+	width : 150px;
+	height : 150px;
+}
+
+/*#visa
+{
+	height:100px;
+	width:100px;
+	margin-top:-200px;
+	margin-left:68em;
+}
+
+#queryCard
+{
+	padding-top:-1em;
+	margin-left:75.5em;
+	width:20px;
+	height:20px;
+}
+
+#queryAddress
+{
+	padding-top:12em;
+	margin-left:75.5em;
+	width:20px;
+	height:20px;
+}
+*/
+
+#error
+{
+	color:red;
+	text-align:left;	
+
+}
